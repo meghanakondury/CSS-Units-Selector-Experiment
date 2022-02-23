@@ -1,0 +1,60 @@
+* {
+  font-family: monospace;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+body, html, {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #F0E500;
+}
+
+.Parent {
+  display: flex;
+}
+
+.Parent div {
+  background-color: #ccc;
+  margin: 35px;
+  padding: 16px;
+}
+
+.Parent > div {
+  background-color: #fff;
+  margin: 10px;
+  padding:5px;
+}
+
+.Parent div > p {
+  text-shadow: 5px;
+  text-decoration-color: red;
+  text-decoration: overline;
+
+}
+
+.Parent div p:first-child {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+p + p {
+  margin-top: 32px;
+}
+
+h1 + p {
+
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #5100EB;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 40px;
+}
